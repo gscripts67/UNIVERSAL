@@ -1,0 +1,29 @@
+local GAMES = {
+    [74280534082174]  = "https://raw.githubusercontent.com/sobachgroi67-cpu/raisecolony/refs/heads/main/gscripts",
+    [9887055815]      = "https://raw.githubusercontent.com/sobachgroi67-cpu/dont-splash/refs/heads/main/gscripts",
+    [70650894743738]  = "https://raw.githubusercontent.com/sobachgroi67-cpu/bug-evolution/refs/heads/main/gscripts",
+    [86479448397834]  = "https://raw.githubusercontent.com/sobachgroi67-cpu/bakeordie/refs/heads/main/gscripts",
+    [93102089911328]  = "https://pastefy.app/Bf2n5eA8/raw",
+    [75366259315586]  = "https://pastefy.app/PoUwslup/raw",
+    [129866685202296] = "https://pastefy.app/85ElOVSY/raw",
+    [136801880565837] = "https://pastefy.app/qGQXODiE/raw",
+    [119987266683883] = "https://pastefy.app/tmHN7f1v/raw",
+    [7215881810]      = "https://raw.githubusercontent.com/jkdjwuwhfbd-jpg/homelandergscripts/refs/heads/main/maboi",
+    [7871169780]      = "https://project-xiaeo.vercel.app/api/v1/luascripts/public/076cf732421e3ae71a1e885489e179eb731ea87e4248d105d977e61cc7ea8bdb/download",
+    [17590362521]     = "https://pastebin.com/raw/27g8sTxU",
+    [72876380181807]  = "https://pastefy.app/WxpwPXFL/raw",
+    [110808833601416] = "https://pastefy.app/kDqiT6fm/raw",
+    [286090429]       = "https://pastebin.com/raw/vxtLzD4W",
+    [127707120843339] = "https://pastebin.com/raw/3HMm29rm",
+    [84718070904253]  = "https://pastebin.com/raw/ccNcdtAb",
+    [103854444055060] = "https://pastefy.app/qEw9a0je/raw",
+    [13159565330]     = "https://pastebin.com/raw/2LDs3MzE",
+    [108843562394237] = "https://pastebin.com/raw/P7wVQc5c",
+    [11379739543]     = "https://raw.githubusercontent.com/sobachgroi67-cpu/freeyay/refs/heads/main/realfreeversion",
+    [11276071411]     = "https://raw.githubusercontent.com/sobachgroi67-cpu/NpcOrDie/refs/heads/main/NpcOrDieScript",
+}
+
+local url = GAMES[game.PlaceId]
+if url then
+    loadstring(game:HttpGet(url))()
+end
